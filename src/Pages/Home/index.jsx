@@ -44,12 +44,12 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "Complete Program",
+      title: "Most Innovative Institution",
       desc: "The most innovative non-formal education institution 2017 (Jawa Pos Radar Kediri). For about 10 years, more than 100 thousand people have studied English with us.",
     },
     {
       id: 4,
-      title: "Complete Program",
+      title: "Best Qualified Tutor",
       desc: "Learning English doesn't have to be a nightmare if you have a great teacher and a supportive learning environment to keep learning and practicing your English. ",
     },
   ];
@@ -59,7 +59,7 @@ export default function Home() {
         {/* Home */}
         <div className="flex justify-between py-20 items-center mb-20">
           <div className="left flex flex-col w-1/3 gap-y-10">
-            <h1 className="font-extrabold text-5xl">
+            <h1 className="font-extrabold text-6xl">
               Discover your best potential of english learning
             </h1>
             <p className="text-gray-400 font-bold">
@@ -150,7 +150,7 @@ function CardTips({ i }) {
           <h1 className="font-extrabold text-white text-5xl">{i.id}</h1>
         </div>
         <div className="content flex flex-col gap-y-4 justify-center py-2 pr-5 w-3/4">
-          <h1 className="font-bold">{i.title}</h1>
+          <h1 className="font-bold text-lg">{i.title}</h1>
           <p >{i.desc}</p>
         </div>
       </div>
