@@ -13,16 +13,16 @@ export default function Navbar() {
         />
         <ul className="flex z-20 gap-x-5 font-bold text-lg">
           <li className=" hover:-translate-y-1 ease-in-out transition hover:scale-110">
-            Home
+           <a href="#home">Home</a>
           </li>
           <li className=" hover:-translate-y-1 ease-in-out transition hover:scale-110">
-            Skills
+           <a href="#skills">Skills</a>
           </li>
           <li className=" hover:-translate-y-1 ease-in-out transition hover:scale-110">
-            Tips & Tricks
+            <a href="#tips">Tips & Tricks</a>
           </li>
           <li className=" hover:-translate-y-1 ease-in-out transition hover:scale-110">
-            About Us
+            <a href="#about">About Us</a>
           </li>
         </ul>
         <ul className="flex gap-x-5 z-20 ">
